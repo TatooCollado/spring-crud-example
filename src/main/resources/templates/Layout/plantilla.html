@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Plantilla</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <header th:fragment="header">
+            <h1 th:text="#{plantilla.titulo}">Titulo</h1>
+        </header>
+        <footer th:fragment="footer">
+            <p >[[#{plantilla.pie_de_pagina}]]<a href="https://www.linkedin.com/in/ignacio-collado1" target="_blank"> www.linkedin.com/in/ignacio-collado1</a></p>
+        </footer>
+       
+    </body>
+</html>
